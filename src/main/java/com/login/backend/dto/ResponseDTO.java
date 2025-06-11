@@ -1,4 +1,4 @@
 package com.login.backend.dto;
 
-public class ResponseDTO {
+public record ResponseDTO(String name,String password) {
 }
